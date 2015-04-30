@@ -89,7 +89,4 @@ Further reading on `searchkick` configuration: https://github.com/ankane/searchk
 # TODO
 
 - make this easily installable on Cloud Foundry
-- remove sqlite, replace with postgres (a requirement for Cloud Foundry)
 - set up GitHub webhook listener
-
-
