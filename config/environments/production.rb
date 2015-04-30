@@ -74,7 +74,7 @@ Rails.application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # Do not dump schema after migrations.
-  config.active_record.dump_schema_after_migration = false
-  
+  # config.active_record.dump_schema_after_migration = false
+
   config.jekyll_api_url = ENV['JEKYLL_SEARCH_PROD_URL']
 end
